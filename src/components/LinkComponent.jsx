@@ -3,7 +3,7 @@ function LinkComponent({ icon, link, imagew }) {
   return (
     <div className="text-sm font-semibold flex justify-between m-2 mx-4 items-center bg-gray-200 p-2 rounded-lg">
       <div className="flex gap-8 items-center">
-        <img src={icon} className={`w-[${imagew}px]`} />
+        <img src={icon} width={imagew} />
         {/* <p className="text-lg font-semibold">{name}</p> */}
       </div>
 

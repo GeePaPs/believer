@@ -47,9 +47,9 @@ function App() {
             <LinkComponent
               icon={appleMusicIcon}
               link={links.apple}
-              imagew="100"
+              imagew="150"
             />
-            <LinkComponent icon={ytmusic} link={links.yt} imagew="100" />
+            <LinkComponent icon={ytmusic} link={links.yt} imagew="150" />
             {/* <LinkComponent icon={boomplay} name={"Boomplay"} link={"#"} /> */}
           </div>
         </div>
