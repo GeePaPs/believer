@@ -57,6 +57,12 @@ function App() {
           <WaveformPlayer />
         </div>
       </div>
+
+      <footer className="text-gray-300 text-xs mt-2">
+        <a href="https://x.com/thelocalgodd" target="_blank">
+          dev: thelocalgodd
+        </a>
+      </footer>
     </main>
   );
 }
