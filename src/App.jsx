@@ -42,10 +42,14 @@ function App() {
             <LinkComponent
               icon={spotifyIcon}
               link={links.spotify}
-              imagew="100px"
+              imagew="100"
             />
-            <LinkComponent icon={appleMusicIcon} link={links.apple} />
-            <LinkComponent icon={ytmusic} link={links.yt} />
+            <LinkComponent
+              icon={appleMusicIcon}
+              link={links.apple}
+              imagew="100"
+            />
+            <LinkComponent icon={ytmusic} link={links.yt} imagew="100" />
             {/* <LinkComponent icon={boomplay} name={"Boomplay"} link={"#"} /> */}
           </div>
         </div>
