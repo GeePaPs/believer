@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Monument";
+  src: url("./assets/MonumentExtended-Regular.otf");
+}
+
+p {
+  font-family: "Monument", sans-serif;
+  /* -webkit-text-stroke: 0px; */
+  /* -webkit-text-stroke-color: white; */
+}
