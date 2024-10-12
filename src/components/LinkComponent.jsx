@@ -12,7 +12,7 @@ function LinkComponent({ icon, link, imagew }) {
           href={link}
           className="bg-gray-100 hover:bg-gray-50 px-4 py-2 rounded-lg cursor-pointer"
         >
-          pre-save
+          PRE-SAVE
         </a>
       </div>
     </div>

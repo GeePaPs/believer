@@ -24,7 +24,6 @@ function App() {
         backgroundImage: `url(${bg})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        backgroundAttachment: "fixed",
         height: "100vh",
       }}
       className="w-screen min-h-screen flex h-screen flex-col items-center justify-center"
