@@ -65,7 +65,7 @@ function App() {
       </div>
 
       <footer className="text-gray-300 text-xs mt-2">
-        <a href="https://x.com/dzidula_2" target="_blank">
+        <a href="https://x.com/dzidula_1" target="_blank">
           dev: thelocalgodd
         </a>
       </footer>
