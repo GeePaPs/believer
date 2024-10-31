@@ -10,9 +10,10 @@ function LinkComponent({ icon, link, imagew }) {
       <div className="flex gap-4">
         <a
           href={link}
+          target="_blank"
           className="bg-gray-100 hover:bg-gray-50 px-4 py-2 rounded-lg cursor-pointer"
         >
-          PRE-SAVE
+          STREAM{" "}
         </a>
       </div>
     </div>
