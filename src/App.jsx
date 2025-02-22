@@ -1,8 +1,9 @@
 import LinkComponent from "./components/LinkComponent";
 // import spotifyIcon from "./assets/_spotify.png";
 // import appleMusicIcon from "./assets/_apple.png";
-import ytmusic from "./assets/_yt.png";
+// import ytmusic from "./assets/_yt.png";
 import boomplay from "./assets/boomplay.png";
+import ig from "./assets/ig.jpeg";
 import bg from "/3.jpg";
 
 // import WaveformPlayer from "./components/WaveformPlayer";
@@ -16,6 +17,7 @@ const links = {
   yt: "https://music.youtube.com/watch?v=GcqzXG_LWp4&si=y3LsrIqUM5AE9UkJ",
   boomplay:
     "https://www.boomplay.com/songs/184984263?srModel=COPYLINK&srList=WEB",
+  ig: "",
 };
 
 function App() {
@@ -37,6 +39,13 @@ function App() {
       </div>
       <div className="w-[380px] rounded-lg flex flex-col py-2">
         <div>
+          <LinkComponent
+            icon={ig}
+            name={"Instagram"}
+            link={"https://www.instagram.com/theboycliq/"}
+            imagew="30"
+            button="OPEN"
+          />
           <iframe
             className="border border-transparent"
             height="175"
@@ -79,7 +88,7 @@ function App() {
             {/* <LinkComponent icon={ytmusic} link={links.yt} imagew="150" /> */}
             <LinkComponent
               icon={boomplay}
-              name={"Boomplay"}
+              // name={"Boomplay"}
               link={links.boomplay}
               imagew="100"
             />
